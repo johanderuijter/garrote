@@ -100,7 +100,7 @@ class GarroteTest extends TestCase
         $this->assertTrue($this->garrote->isBlocked($request, $wire));
 
         // No idea how to mock this
-        sleep(1);
+        sleep(2);
 
         $this->assertFalse($this->garrote->isBlocked($request, $wire));
     }
